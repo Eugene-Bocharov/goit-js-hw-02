@@ -1,5 +1,7 @@
 'use strict';
 
+console.log('============Завдання 5============');
+
 const checkForSpam = function (message) { 
 
     let lowerStr = message.toLowerCase();

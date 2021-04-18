@@ -1,5 +1,7 @@
 'use strict';
 
+console.log('============Завдання 4============');
+
 const formatString = function (str) {
 
   if (str.length <= 40) {
@@ -9,21 +11,19 @@ const formatString = function (str) {
   }
 };
   
-/*
- * Виклич функції для перевірки працездатності твоєї реалізації.
- */
-// console.log(formatString('Curabitur ligula sapien, tincidunt non.'));
+
+console.log(formatString('Curabitur ligula sapien, tincidunt non.'));
 // повернеться оригінальний рядок
 
-// console.log(formatString('Vestibulum facilisis, purus nec pulvinar iaculis.'));
+console.log(formatString('Vestibulum facilisis, purus nec pulvinar iaculis.'));
 // повернеться форматований рядок
 
-// console.log(formatString('Curabitur ligula sapien.'));
+console.log(formatString('Curabitur ligula sapien.'));
 // повернеться оригінальний рядок
 
-// console.log(
-//   formatString(
-//     'Nunc sed turpis. Curabitur a felis in nunc fringilla tristique.',
-//   ),
-// );
+console.log(
+  formatString(
+    'Nunc sed turpis. Curabitur a felis in nunc fringilla tristique.',
+  ),
+);
 // повернеться форматований рядок

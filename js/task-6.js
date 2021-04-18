@@ -1,5 +1,7 @@
 "use strict";
 
+console.log('============Завдання 6============');
+
 let input;
 const numbers = [];
 let total = 0;
